@@ -4,11 +4,11 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "parcel: build",
+            "label": "parcel: build-example",
             "type": "shell",
             "command": "yarn",
             "args": [
-                "build",
+                "build-example",
             ],
             "problemMatcher": [],
             "group": {
