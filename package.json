@@ -16,8 +16,8 @@
   },
   "scripts": {
     "test": "react-scripts test",
-    "start": "npx parcel src/index.html --no-cache --dist-dir .build",
-    "build": "npx parcel build src/index.html --no-cache --no-source-maps --dist-dir .build"
+    "start": "npx parcel example/index.html --no-cache --dist-dir .build",
+    "build-example": "npx parcel build example/index.html --no-cache --no-source-maps --dist-dir .build"
   },
   "keywords": [],
   "author": "",
