@@ -339,3 +339,4 @@ out
 
 package-lock.json
 #yarn.lock
+/dist
