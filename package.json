@@ -1,6 +1,11 @@
 {
+  "name": "example-react-lib",
   "version": "1.0.0",
   "description": "",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -16,6 +21,7 @@
   },
   "scripts": {
     "test": "react-scripts test",
+    "build": "npx parcel build",
     "start": "npx parcel example/index.html --no-cache --dist-dir .build",
     "build-example": "npx parcel build example/index.html --no-cache --no-source-maps --dist-dir .build"
   },
