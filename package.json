@@ -5,7 +5,7 @@
   "source": "src/index.ts",
   "module": "dist/index.js",
   "types": "dist/types.d.ts",
-  "peerDependencies": {
+  "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
