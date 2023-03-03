@@ -13,7 +13,6 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "npm run build",
     "test": "react-scripts test",
     "build": "npx parcel build",
     "start": "npx parcel example/index.html --no-cache --dist-dir .build",
