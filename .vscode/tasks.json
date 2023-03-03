@@ -4,11 +4,11 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "parcel: build-example",
+            "label": "parcel: build",
             "type": "shell",
             "command": "yarn",
             "args": [
-                "build-example",
+                "build",
             ],
             "problemMatcher": [],
             "group": {
@@ -26,6 +26,7 @@
                 "--immutable-cache",
                 "--check-cache",
             ],
+            "problemMatcher": [],
         },
     ]
 }
