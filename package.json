@@ -6,12 +6,12 @@
     "src": {
       "source": "src/index.ts",
       "isLibrary": true,
-      "distDir": "./dist"
+      "distDir": "dist"
     },
     "example": {
       "source": "example/index.html",
       "isLibrary": false,
-      "distDir": "./.build"
+      "distDir": "dist"
     }
   },
   "exports": {
@@ -24,7 +24,8 @@
   "scripts": {
     "test": "react-scripts test",
     "build": "npx parcel build --target src",
-    "start": "npx parcel --no-cache --target example"
+    "start": "npx parcel --target example --no-cache",
+    "build-example": "npx parcel build --target example --no-cache --no-source-maps"
   },
   "keywords": [],
   "author": "",
