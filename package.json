@@ -2,18 +2,9 @@
   "name": "example-react-lib",
   "version": "1.0.0",
   "description": "",
-  "targets": {
-    "src": {
-      "source": "src/index.ts",
-      "isLibrary": true,
-      "distDir": "dist"
-    },
-    "example": {
-      "source": "example/index.html",
-      "isLibrary": false,
-      "distDir": "dist"
-    }
-  },
+  "source": "src/index.ts",
+  "module": "dist/index.js",
+  "types": "dist/types.d.ts",
   "exports": {
     ".": "./dist/*",
     "./package.json": "./package.json"
@@ -23,10 +14,7 @@
   ],
   "scripts": {
     "prepack": "yarn build",
-    "test": "react-scripts test",
-    "build": "npx parcel build --target src",
-    "start": "npx parcel --target example --no-cache",
-    "build-example": "npx parcel build --target example --no-cache --no-source-maps"
+    "build": "npx parcel build"
   },
   "keywords": [],
   "author": "",
