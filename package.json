@@ -13,7 +13,6 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "yarn build",
     "build": "npx parcel build"
   },
   "keywords": [],
