@@ -5,6 +5,13 @@
   "source": "src/index.ts",
   "module": "dist/index.js",
   "types": "dist/types.d.ts",
+  "exports": {
+    "./dist": "./dist/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepare": "npm run build",
     "test": "react-scripts test",
