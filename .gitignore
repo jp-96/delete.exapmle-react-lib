@@ -339,6 +339,6 @@ out
 
 package-lock.json
 #yarn.lock
-/dist
+#/dist
 /dist/*.html
 /dist/*.map
