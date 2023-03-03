@@ -58,7 +58,7 @@ function $17889e507a6ca289$var$App() {
                     href: "https://reactjs.org",
                     target: "_blank",
                     rel: "noopener noreferrer",
-                    children: "Learn React"
+                    children: "Learn React - parcel."
                 })
             ]
         })
