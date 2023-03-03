@@ -22,6 +22,7 @@
     "dist"
   ],
   "scripts": {
+    "prepack": "yarn build",
     "test": "react-scripts test",
     "build": "npx parcel build --target src",
     "start": "npx parcel --target example --no-cache",
